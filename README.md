@@ -1,2 +1,2 @@
-# php-simp-log
+# php-simputils-log
 Simp-Utils logger facility

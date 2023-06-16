@@ -1,0 +1,25 @@
+{
+  "name": "spaf/simp-log",
+  "description": "PSR-3 compatible logging facility (SimpUtils)",
+  "keywords": [
+    "simple", "utils", "log", "psr", "psr-3"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Ponomarev",
+      "email": "pi@spaf.dev"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "spaf\\simputils\\log\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "spaf/simputils": "^1",
+    "psr/log": "^3"
+  }
+}
