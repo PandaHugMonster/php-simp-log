@@ -15,11 +15,12 @@
   "autoload": {
     "psr-4": {
       "spaf\\simputils\\log\\": "src/"
-    }
+    },
+    "files": ["src/basic.php"]
   },
   "require": {
     "php": ">=8.0",
-    "spaf/simputils": "^1",
+    "spaf/simputils": "dev-dev",
     "psr/log": "^3"
   }
 }
